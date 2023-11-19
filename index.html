@@ -14,19 +14,19 @@
     </header>
     <nav>
         <ul>
-        <li>About</li>
-        <li>Gallery</li>
-        <li>Contact</li>
-        <li>top</li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#top">Top</a></li>
         </ul>
     </nav>
     <main>
-        <section>
+        <section id="about">
             <h2>About</h2>
             <p>Hello!</p>
             <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world. </p>
         </section>
-        <section>
+        <section id="gallery">
             <h2>Gallery</h2>
             <p>Here are some highlights of my work. The locations and year are in the caption.</p>
 
@@ -66,18 +66,31 @@
             <img src="photos/Wyoming.png" alt="lake with trees and mountain behind">
             <h3>Wyoming, 2021</h3>
         </section>
-        <section>
+        <section id="contact">
             <h2>Contact</h2>
             <p>Please fill out this form and I’ll connect with you soon.</p>
-
-            Your contact information
-            Name (Your full name)
-            Email (Enter your email address)
-            Message (What can I help you with?)
-            Submit
+            <h3>contact information</h3>
+            <form action="" method="get" class="message">
+                <div class="message">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="name" placeholder="Your full name"/>
+                </div>
+                <div class="message">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" placeholder="Enter your email address" />
+                </div>
+                <div class="message">
+                    <label for="message">Message</label>
+                    <input type="text" name="message" id="message" placeholder="What can I help you with?" />
+                </div>
+                <div class="message">
+                  <input type="submit" value="Submit" />
+                </div>
+            </form>
         </section>
     </main>
     <footer>
         <small> Copyright 2021 TK Photography </small>
     </footer>
 </body>
+</html>
