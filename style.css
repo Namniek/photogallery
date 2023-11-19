@@ -4,9 +4,30 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #fff;
+    background-color: #000;
+    display: grid;
     margin: 0 auto;
     min-width: 485px;
+    max-width: 1300px;
+    width: 100%;
+}
+
+header {
+    background-color: #fff;
+    
+}
+
+main {
+    background-color: #fff;
+}
+
+nav {
+    background-color: #000;
+    
+}
+
+nav li {
+    display: inline-flex;
 }
 
 p {
