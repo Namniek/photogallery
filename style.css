@@ -69,6 +69,21 @@ h2 {
     text-transform: uppercase;
 }
 
+figure {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+}
+
+figcaption {
+    
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+figcaption:nth-child()
+
 input::placeholder {
     color: #007d7b;
     text-transform: uppercase;
@@ -87,4 +102,15 @@ input::placeholder {
 
 #contact h3 {
     visibility: hidden;
+}
+
+label {
+    font-variant-caps: all-small-caps;
+}
+
+footer {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40px;
 }
