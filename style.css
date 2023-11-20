@@ -31,11 +31,19 @@ nav a {
     padding: 10px;
     text-align: center;
     text-decoration:none;
+    text-transform: uppercase;
   }
 
   nav li {
     display: inline-flex;
 }
+
+[href="#top"] {
+    position: fixed;
+    bottom:0px;
+    right:0px;
+    
+  }
 
 p {
     font-size: 1.25em;
@@ -65,4 +73,18 @@ input::placeholder {
     color: #007d7b;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+#contact {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+
+#contact h2 {
+    color: #fff;
+}
+
+#contact h3 {
+    visibility: hidden;
 }
