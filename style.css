@@ -75,11 +75,16 @@ figure {
     flex-flow: column;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+}
+
 figcaption {
-    
-    text-align: center;
+    position: absolute;
+    right: 45%;
+    padding: 15px;
     text-transform: uppercase;
-    padding: 10px;
 }
 
 figcaption:nth-child()
