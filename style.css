@@ -4,7 +4,6 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #000;
     display: grid;
     margin: 0 auto;
     min-width: 485px;
@@ -14,7 +13,6 @@ body {
 
 header {
     background-color: #fff;
-    
 }
 
 main {
