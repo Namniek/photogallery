@@ -14,7 +14,7 @@ body {
 
 header {
     background-color: #fff;
-    max-width: 10px, -15px;
+    
 }
 
 main {
@@ -151,7 +151,7 @@ header {
 
 main {
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
 }
 
 input {
@@ -207,4 +207,5 @@ nav {
 figure {
     margin: 5px 5px;
 }
+
 }
